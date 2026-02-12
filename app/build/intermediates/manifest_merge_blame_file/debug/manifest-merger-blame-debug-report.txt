@@ -1,0 +1,475 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.dduddupark.test"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10    <!-- Include required permissions for Google Mobile Ads to run -->
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:24:5-67
+11-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:24:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:25:5-79
+12-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:25:22-76
+13    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+13-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:26:5-79
+13-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:26:22-76
+14    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+14-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:27:5-82
+14-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:27:22-79
+15    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+15-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:28:5-88
+15-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:28:22-85
+16    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_TOPICS" /> <!-- Android package visibility setting -->
+16-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:29:5-83
+16-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:29:22-80
+17    <queries>
+17-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:35:5-51:15
+18
+19        <!-- For browser content -->
+20        <intent>
+20-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:38:9-44:18
+21            <action android:name="android.intent.action.VIEW" />
+21-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:39:13-65
+21-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:39:21-62
+22
+23            <category android:name="android.intent.category.BROWSABLE" />
+23-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:41:13-74
+23-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:41:23-71
+24
+25            <data android:scheme="https" />
+25-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:43:13-44
+25-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:43:19-41
+26        </intent>
+27        <!-- End of browser content -->
+28        <!-- For CustomTabsService -->
+29        <intent>
+29-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:47:9-49:18
+30            <action android:name="android.support.customtabs.action.CustomTabsService" />
+30-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:48:13-90
+30-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:48:21-87
+31        </intent>
+32        <!-- End of CustomTabsService -->
+33    </queries>
+34
+35    <uses-permission android:name="android.permission.WAKE_LOCK" />
+35-->[com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/90599ce1ab43a994f10412d9d22b93a4/transformed/play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:25:5-68
+35-->[com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/90599ce1ab43a994f10412d9d22b93a4/transformed/play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:25:22-65
+36    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+36-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:28:5-77
+36-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:28:22-74
+37
+38    <permission
+38-->[androidx.core:core:1.12.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6d3b3cb1ee12db3b50f8898ca61e50cf/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+39        android:name="com.dduddupark.test.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+39-->[androidx.core:core:1.12.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6d3b3cb1ee12db3b50f8898ca61e50cf/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+40        android:protectionLevel="signature" />
+40-->[androidx.core:core:1.12.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6d3b3cb1ee12db3b50f8898ca61e50cf/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+41
+42    <uses-permission android:name="com.dduddupark.test.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+42-->[androidx.core:core:1.12.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6d3b3cb1ee12db3b50f8898ca61e50cf/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+42-->[androidx.core:core:1.12.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6d3b3cb1ee12db3b50f8898ca61e50cf/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+43
+44    <application
+44-->/Users/yanadoo/AndroidStudioProjects/claude-mcp-test/app/src/main/AndroidManifest.xml:3:5-21:19
+45        android:allowBackup="true"
+45-->/Users/yanadoo/AndroidStudioProjects/claude-mcp-test/app/src/main/AndroidManifest.xml:4:9-35
+46        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+46-->[androidx.core:core:1.12.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6d3b3cb1ee12db3b50f8898ca61e50cf/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+47        android:debuggable="true"
+48        android:extractNativeLibs="false"
+49        android:label="Claude MCP Test"
+49-->/Users/yanadoo/AndroidStudioProjects/claude-mcp-test/app/src/main/AndroidManifest.xml:5:9-40
+50        android:supportsRtl="true"
+50-->/Users/yanadoo/AndroidStudioProjects/claude-mcp-test/app/src/main/AndroidManifest.xml:6:9-35
+51        android:testOnly="true"
+52        android:theme="@style/Theme.AppCompat.Light.DarkActionBar" >
+52-->/Users/yanadoo/AndroidStudioProjects/claude-mcp-test/app/src/main/AndroidManifest.xml:7:9-67
+53        <meta-data
+53-->/Users/yanadoo/AndroidStudioProjects/claude-mcp-test/app/src/main/AndroidManifest.xml:9:9-11:69
+54            android:name="com.google.android.gms.ads.APPLICATION_ID"
+54-->/Users/yanadoo/AndroidStudioProjects/claude-mcp-test/app/src/main/AndroidManifest.xml:10:13-69
+55            android:value="ca-app-pub-3940256099942544~3347511713" />
+55-->/Users/yanadoo/AndroidStudioProjects/claude-mcp-test/app/src/main/AndroidManifest.xml:11:13-67
+56
+57        <activity
+57-->/Users/yanadoo/AndroidStudioProjects/claude-mcp-test/app/src/main/AndroidManifest.xml:13:9-20:20
+58            android:name="com.dduddupark.test.MainActivity"
+58-->/Users/yanadoo/AndroidStudioProjects/claude-mcp-test/app/src/main/AndroidManifest.xml:14:13-41
+59            android:exported="true" >
+59-->/Users/yanadoo/AndroidStudioProjects/claude-mcp-test/app/src/main/AndroidManifest.xml:15:13-36
+60            <intent-filter>
+60-->/Users/yanadoo/AndroidStudioProjects/claude-mcp-test/app/src/main/AndroidManifest.xml:16:13-19:29
+61                <action android:name="android.intent.action.MAIN" />
+61-->/Users/yanadoo/AndroidStudioProjects/claude-mcp-test/app/src/main/AndroidManifest.xml:17:17-69
+61-->/Users/yanadoo/AndroidStudioProjects/claude-mcp-test/app/src/main/AndroidManifest.xml:17:25-66
+62
+63                <category android:name="android.intent.category.LAUNCHER" />
+63-->/Users/yanadoo/AndroidStudioProjects/claude-mcp-test/app/src/main/AndroidManifest.xml:18:17-77
+63-->/Users/yanadoo/AndroidStudioProjects/claude-mcp-test/app/src/main/AndroidManifest.xml:18:27-74
+64            </intent-filter>
+65        </activity>
+66        <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+67        <activity
+67-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:56:9-61:43
+68            android:name="com.google.android.gms.ads.AdActivity"
+68-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:57:13-65
+69            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+69-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:58:13-122
+70            android:exported="false"
+70-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:59:13-37
+71            android:theme="@android:style/Theme.Translucent" />
+71-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:60:13-61
+72
+73        <provider
+73-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:63:9-68:43
+74            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+74-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:64:13-76
+75            android:authorities="com.dduddupark.test.mobileadsinitprovider"
+75-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:65:13-73
+76            android:exported="false"
+76-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:66:13-37
+77            android:initOrder="100" />
+77-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:67:13-36
+78
+79        <service
+79-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:70:9-74:43
+80            android:name="com.google.android.gms.ads.AdService"
+80-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:71:13-64
+81            android:enabled="true"
+81-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:72:13-35
+82            android:exported="false" />
+82-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:73:13-37
+83
+84        <activity
+84-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:76:9-80:43
+85            android:name="com.google.android.gms.ads.OutOfContextTestingActivity"
+85-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:77:13-82
+86            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+86-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:78:13-122
+87            android:exported="false" />
+87-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:79:13-37
+88        <activity
+88-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:81:9-88:43
+89            android:name="com.google.android.gms.ads.NotificationHandlerActivity"
+89-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:82:13-82
+90            android:excludeFromRecents="true"
+90-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:83:13-46
+91            android:exported="false"
+91-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:84:13-37
+92            android:launchMode="singleTask"
+92-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:85:13-44
+93            android:taskAffinity=""
+93-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:86:13-36
+94            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+94-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:87:13-72
+95
+96        <property
+96-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:90:9-92:62
+97            android:name="android.adservices.AD_SERVICES_CONFIG"
+97-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:91:13-65
+98            android:resource="@xml/gma_ad_services_config" />
+98-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:92:13-59
+99
+100        <activity
+100-->[com.google.android.gms:play-services-base:18.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/77a1bb3640431e38d74cd80855983352/transformed/play-services-base-18.0.0/AndroidManifest.xml:20:9-22:45
+101            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+101-->[com.google.android.gms:play-services-base:18.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/77a1bb3640431e38d74cd80855983352/transformed/play-services-base-18.0.0/AndroidManifest.xml:20:19-85
+102            android:exported="false"
+102-->[com.google.android.gms:play-services-base:18.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/77a1bb3640431e38d74cd80855983352/transformed/play-services-base-18.0.0/AndroidManifest.xml:22:19-43
+103            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+103-->[com.google.android.gms:play-services-base:18.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/77a1bb3640431e38d74cd80855983352/transformed/play-services-base-18.0.0/AndroidManifest.xml:21:19-78
+104
+105        <meta-data
+105-->[com.google.android.gms:play-services-basement:18.2.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/b685fcc9d722e56bab91bfa569ab17eb/transformed/play-services-basement-18.2.0/AndroidManifest.xml:21:9-23:69
+106            android:name="com.google.android.gms.version"
+106-->[com.google.android.gms:play-services-basement:18.2.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/b685fcc9d722e56bab91bfa569ab17eb/transformed/play-services-basement-18.2.0/AndroidManifest.xml:22:13-58
+107            android:value="@integer/google_play_services_version" />
+107-->[com.google.android.gms:play-services-basement:18.2.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/b685fcc9d722e56bab91bfa569ab17eb/transformed/play-services-basement-18.2.0/AndroidManifest.xml:23:13-66
+108
+109        <activity
+109-->[androidx.compose.ui:ui-test-manifest:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4ddaa85caeae0c5cfea81287d11b2c2f/transformed/ui-test-manifest-1.6.0/AndroidManifest.xml:23:9-25:39
+110            android:name="androidx.activity.ComponentActivity"
+110-->[androidx.compose.ui:ui-test-manifest:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4ddaa85caeae0c5cfea81287d11b2c2f/transformed/ui-test-manifest-1.6.0/AndroidManifest.xml:24:13-63
+111            android:exported="true" />
+111-->[androidx.compose.ui:ui-test-manifest:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4ddaa85caeae0c5cfea81287d11b2c2f/transformed/ui-test-manifest-1.6.0/AndroidManifest.xml:25:13-36
+112        <activity
+112-->[androidx.compose.ui:ui-tooling-android:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a0dab6f4f188193c7de0c0f71ae404c4/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+113            android:name="androidx.compose.ui.tooling.PreviewActivity"
+113-->[androidx.compose.ui:ui-tooling-android:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a0dab6f4f188193c7de0c0f71ae404c4/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+114            android:exported="true" />
+114-->[androidx.compose.ui:ui-tooling-android:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a0dab6f4f188193c7de0c0f71ae404c4/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+115
+116        <provider
+116-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:31:9-39:20
+117            android:name="androidx.startup.InitializationProvider"
+117-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:32:13-67
+118            android:authorities="com.dduddupark.test.androidx-startup"
+118-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:33:13-68
+119            android:exported="false" >
+119-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:34:13-37
+120            <meta-data
+120-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:36:13-38:52
+121                android:name="androidx.work.WorkManagerInitializer"
+121-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:37:17-68
+122                android:value="androidx.startup" />
+122-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:38:17-49
+123            <meta-data
+123-->[androidx.emoji2:emoji2:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/b239fad4e688baa9f78d6f54c04f3a19/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+124                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+124-->[androidx.emoji2:emoji2:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/b239fad4e688baa9f78d6f54c04f3a19/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+125                android:value="androidx.startup" />
+125-->[androidx.emoji2:emoji2:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/b239fad4e688baa9f78d6f54c04f3a19/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+126            <meta-data
+126-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4f5476382b08d74338128590f64e470a/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+127                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+127-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4f5476382b08d74338128590f64e470a/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+128                android:value="androidx.startup" />
+128-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4f5476382b08d74338128590f64e470a/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+129            <meta-data
+129-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/351c92a477d0b20cb729f418754983c1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+130                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+130-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/351c92a477d0b20cb729f418754983c1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+131                android:value="androidx.startup" />
+131-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/351c92a477d0b20cb729f418754983c1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+132        </provider>
+133
+134        <service
+134-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:41:9-46:35
+135            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+135-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:42:13-88
+136            android:directBootAware="false"
+136-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:43:13-44
+137            android:enabled="@bool/enable_system_alarm_service_default"
+137-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:44:13-72
+138            android:exported="false" />
+138-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:45:13-37
+139        <service
+139-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:47:9-53:35
+140            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+140-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:48:13-84
+141            android:directBootAware="false"
+141-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:49:13-44
+142            android:enabled="@bool/enable_system_job_service_default"
+142-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:50:13-70
+143            android:exported="true"
+143-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:51:13-36
+144            android:permission="android.permission.BIND_JOB_SERVICE" />
+144-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:52:13-69
+145        <service
+145-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:54:9-59:35
+146            android:name="androidx.work.impl.foreground.SystemForegroundService"
+146-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:55:13-81
+147            android:directBootAware="false"
+147-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:56:13-44
+148            android:enabled="@bool/enable_system_foreground_service_default"
+148-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:57:13-77
+149            android:exported="false" />
+149-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:58:13-37
+150
+151        <receiver
+151-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:61:9-66:35
+152            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+152-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:62:13-88
+153            android:directBootAware="false"
+153-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:63:13-44
+154            android:enabled="true"
+154-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:64:13-35
+155            android:exported="false" />
+155-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:65:13-37
+156        <receiver
+156-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:67:9-77:20
+157            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+157-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:68:13-106
+158            android:directBootAware="false"
+158-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:69:13-44
+159            android:enabled="false"
+159-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:70:13-36
+160            android:exported="false" >
+160-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:71:13-37
+161            <intent-filter>
+161-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:73:13-76:29
+162                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+162-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:74:17-87
+162-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:74:25-84
+163                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+163-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:75:17-90
+163-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:75:25-87
+164            </intent-filter>
+165        </receiver>
+166        <receiver
+166-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:78:9-88:20
+167            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+167-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:79:13-104
+168            android:directBootAware="false"
+168-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:80:13-44
+169            android:enabled="false"
+169-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:81:13-36
+170            android:exported="false" >
+170-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:82:13-37
+171            <intent-filter>
+171-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:84:13-87:29
+172                <action android:name="android.intent.action.BATTERY_OKAY" />
+172-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:85:17-77
+172-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:85:25-74
+173                <action android:name="android.intent.action.BATTERY_LOW" />
+173-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:86:17-76
+173-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:86:25-73
+174            </intent-filter>
+175        </receiver>
+176        <receiver
+176-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:89:9-99:20
+177            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+177-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:90:13-104
+178            android:directBootAware="false"
+178-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:91:13-44
+179            android:enabled="false"
+179-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:92:13-36
+180            android:exported="false" >
+180-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:93:13-37
+181            <intent-filter>
+181-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:95:13-98:29
+182                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+182-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:96:17-83
+182-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:96:25-80
+183                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+183-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:97:17-82
+183-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:97:25-79
+184            </intent-filter>
+185        </receiver>
+186        <receiver
+186-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:100:9-109:20
+187            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+187-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:101:13-103
+188            android:directBootAware="false"
+188-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:102:13-44
+189            android:enabled="false"
+189-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:103:13-36
+190            android:exported="false" >
+190-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:104:13-37
+191            <intent-filter>
+191-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:106:13-108:29
+192                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+192-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:107:17-79
+192-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:107:25-76
+193            </intent-filter>
+194        </receiver>
+195        <receiver
+195-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:110:9-121:20
+196            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+196-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:111:13-88
+197            android:directBootAware="false"
+197-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:112:13-44
+198            android:enabled="false"
+198-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:113:13-36
+199            android:exported="false" >
+199-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:114:13-37
+200            <intent-filter>
+200-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:116:13-120:29
+201                <action android:name="android.intent.action.BOOT_COMPLETED" />
+201-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:117:17-79
+201-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:117:25-76
+202                <action android:name="android.intent.action.TIME_SET" />
+202-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:118:17-73
+202-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:118:25-70
+203                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+203-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:119:17-81
+203-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:119:25-78
+204            </intent-filter>
+205        </receiver>
+206        <receiver
+206-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:122:9-131:20
+207            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+207-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:123:13-99
+208            android:directBootAware="false"
+208-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:124:13-44
+209            android:enabled="@bool/enable_system_alarm_service_default"
+209-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:125:13-72
+210            android:exported="false" >
+210-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:126:13-37
+211            <intent-filter>
+211-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:128:13-130:29
+212                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+212-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:129:17-98
+212-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:129:25-95
+213            </intent-filter>
+214        </receiver>
+215        <receiver
+215-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:132:9-142:20
+216            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+216-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:133:13-78
+217            android:directBootAware="false"
+217-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:134:13-44
+218            android:enabled="true"
+218-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:135:13-35
+219            android:exported="true"
+219-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:136:13-36
+220            android:permission="android.permission.DUMP" >
+220-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:137:13-57
+221            <intent-filter>
+221-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:139:13-141:29
+222                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+222-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:140:17-88
+222-->[androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:140:25-85
+223            </intent-filter>
+224        </receiver>
+225
+226        <uses-library
+226-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/fea81d7e2d4c1de6f4132482282c949f/transformed/ads-adservices-1.0.0-beta05/AndroidManifest.xml:23:9-25:40
+227            android:name="android.ext.adservices"
+227-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/fea81d7e2d4c1de6f4132482282c949f/transformed/ads-adservices-1.0.0-beta05/AndroidManifest.xml:24:13-50
+228            android:required="false" />
+228-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/fea81d7e2d4c1de6f4132482282c949f/transformed/ads-adservices-1.0.0-beta05/AndroidManifest.xml:25:13-37
+229
+230        <service
+230-->[androidx.room:room-runtime:2.2.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/38e51f147c5469aaf6162aa89e80f0bd/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+231            android:name="androidx.room.MultiInstanceInvalidationService"
+231-->[androidx.room:room-runtime:2.2.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/38e51f147c5469aaf6162aa89e80f0bd/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+232            android:directBootAware="true"
+232-->[androidx.room:room-runtime:2.2.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/38e51f147c5469aaf6162aa89e80f0bd/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+233            android:exported="false" />
+233-->[androidx.room:room-runtime:2.2.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/38e51f147c5469aaf6162aa89e80f0bd/transformed/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+234
+235        <receiver
+235-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/351c92a477d0b20cb729f418754983c1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+236            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+236-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/351c92a477d0b20cb729f418754983c1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+237            android:directBootAware="false"
+237-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/351c92a477d0b20cb729f418754983c1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+238            android:enabled="true"
+238-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/351c92a477d0b20cb729f418754983c1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+239            android:exported="true"
+239-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/351c92a477d0b20cb729f418754983c1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+240            android:permission="android.permission.DUMP" >
+240-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/351c92a477d0b20cb729f418754983c1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+241            <intent-filter>
+241-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/351c92a477d0b20cb729f418754983c1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+242                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+242-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/351c92a477d0b20cb729f418754983c1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+242-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/351c92a477d0b20cb729f418754983c1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+243            </intent-filter>
+244            <intent-filter>
+244-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/351c92a477d0b20cb729f418754983c1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+245                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+245-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/351c92a477d0b20cb729f418754983c1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+245-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/351c92a477d0b20cb729f418754983c1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+246            </intent-filter>
+247            <intent-filter>
+247-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/351c92a477d0b20cb729f418754983c1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+248                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+248-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/351c92a477d0b20cb729f418754983c1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+248-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/351c92a477d0b20cb729f418754983c1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+249            </intent-filter>
+250            <intent-filter>
+250-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/351c92a477d0b20cb729f418754983c1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+251                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+251-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/351c92a477d0b20cb729f418754983c1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+251-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/351c92a477d0b20cb729f418754983c1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+252            </intent-filter>
+253        </receiver>
+254    </application>
+255
+256</manifest>
