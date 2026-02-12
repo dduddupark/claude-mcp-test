@@ -1,517 +1,503 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/yanadoo/AndroidStudioProjects/claude-mcp-test/app/src/main/AndroidManifest.xml:2:1-22:12
-INJECTED from /Users/yanadoo/AndroidStudioProjects/claude-mcp-test/app/src/main/AndroidManifest.xml:2:1-22:12
-INJECTED from /Users/yanadoo/AndroidStudioProjects/claude-mcp-test/app/src/main/AndroidManifest.xml:2:1-22:12
-INJECTED from /Users/yanadoo/AndroidStudioProjects/claude-mcp-test/app/src/main/AndroidManifest.xml:2:1-22:12
-MERGED from [com.google.android.gms:play-services-ads:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/781c76add34270309e7edceb0854caba/transformed/play-services-ads-23.0.0/AndroidManifest.xml:17:1-25:12
-MERGED from [androidx.browser:browser:1.4.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/e69410aee9473a3cc19dc313779b5068/transformed/browser-1.4.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:17:1-95:12
-MERGED from [com.google.android.gms:play-services-ads-base:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6447d2c3902ab032ac09f4d73a0580ca/transformed/play-services-ads-base-23.0.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/9af50f3b3be8c6c57a265b5e088a7141/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:17:1-27:12
-MERGED from [com.google.android.gms:play-services-appset:16.0.1] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/c55afec62381cbcf37c535822edd4b64/transformed/play-services-appset-16.0.1/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-base:18.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/77a1bb3640431e38d74cd80855983352/transformed/play-services-base-18.0.0/AndroidManifest.xml:16:1-24:12
-MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/f1b46b3f0ade31e3186b1d9c426fb361/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/90599ce1ab43a994f10412d9d22b93a4/transformed/play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:17:1-28:12
-MERGED from [com.google.android.ump:user-messaging-platform:2.2.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/2e9bbda1cd3d9d2773d3048f99914867/transformed/user-messaging-platform-2.2.0/AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.android.gms:play-services-measurement-base:20.1.2] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/f139dba71add269e5b45af619a35d76a/transformed/play-services-measurement-base-20.1.2/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/b685fcc9d722e56bab91bfa569ab17eb/transformed/play-services-basement-18.2.0/AndroidManifest.xml:16:1-26:12
-MERGED from [androidx.compose.material3:material3:1.1.2] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/b04afffbad58495c897af90a9146fbef/transformed/material3-1.1.2/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity:1.8.2] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/8cff5772def6acd6840198bf8bfcd567/transformed/activity-1.8.2/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity-ktx:1.8.2] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/033026cc9a30ff8a872da9ada25b0567/transformed/activity-ktx-1.8.2/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.material:material-ripple-android:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/e2bc9b63581fb6af5507eef661b181d3/transformed/material-ripple-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.material:material-icons-core-android:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/e1fd08d3e5dc7f233ababb4541afb2fd/transformed/material-icons-core-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.material:material-android:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a3d496fba6baeee9b840784c1c1ed94c/transformed/material-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.animation:animation-core-android:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/41c8c7c3db2eac33382b317212022e98/transformed/animation-core-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.animation:animation-android:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/f4a836d351a2f68704a3d2a0cadb71fd/transformed/animation-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/f6f4097f6155ab1009943cd44a521d4d/transformed/foundation-layout-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.foundation:foundation-android:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/3e2af57449e587674c26f6d0e4b6a412/transformed/foundation-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/3791941f4ad6f54e189f374707ea938f/transformed/ui-tooling-data-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-unit-android:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6234255a5d40fd88c4f2f76b8dedb2e9/transformed/ui-unit-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-geometry-android:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/5c8aa5a883578b136b7d7649a29a3ed5/transformed/ui-geometry-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-util-android:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/59a64205ba3b3c4f7f40382030934cce/transformed/ui-util-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-text-android:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/c3a4673901f27db6238695e12f419db7/transformed/ui-text-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/99123b38dd8a542913d984c8694a2be0/transformed/ui-tooling-preview-release/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.compose.ui:ui-graphics-android:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a31c8c6ba9cbf9f9ddd6df3de817a1eb/transformed/ui-graphics-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-test-manifest:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4ddaa85caeae0c5cfea81287d11b2c2f/transformed/ui-test-manifest-1.6.0/AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.compose.ui:ui-tooling-android:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a0dab6f4f188193c7de0c0f71ae404c4/transformed/ui-tooling-release/AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.activity:activity-compose:1.8.2] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/8ef99bda6f29d59339ce3984560e8978/transformed/activity-compose-1.8.2/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-android:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/8d54f526ab8119cb5c391b5c882a6d01/transformed/ui-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:17:1-145:12
-MERGED from [androidx.fragment:fragment:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6ad4db03f3f1fbf5e536d91d3fe8b123/transformed/fragment-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.autofill:autofill:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a75465ffd336607519fb9715638432b4/transformed/autofill-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/204040b0f11c6b3848b019087b432417/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/dcf782c24b9c76602a1c3816a268788d/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/f0df1382350152a34ffd2ef73230d46e/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/b239fad4e688baa9f78d6f54c04f3a19/transformed/emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/b792d4a1c021c99b6a00dd0980bf1601/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/81ea49af14559d6600200de21d4d8e37/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+ADDED from /Users/yanadoo/Documents/test-folder/claude-mcp-test/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/yanadoo/Documents/test-folder/claude-mcp-test/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/yanadoo/Documents/test-folder/claude-mcp-test/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/yanadoo/Documents/test-folder/claude-mcp-test/app/src/main/AndroidManifest.xml:2:1-23:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/b41b64d612d1efa2e2213dd20ae70143/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/ef383254d7ed336647320bff66369b36/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-ads:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/7661b79a006d5de6ee8940ce6420bcf8/transformed/jetified-play-services-ads-23.0.0/AndroidManifest.xml:17:1-25:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a4d3d1e4401d8ca225f6106e2ed34766/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/f985e080cf2092fa275e3c91c956a98a/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:17:1-95:12
+MERGED from [com.google.android.gms:play-services-ads-base:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/ef7a1ea41e6d39842db05ce5dd77b369/transformed/jetified-play-services-ads-base-23.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/5b666c397966d9b6e9cbbe43ab408ab9/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-appset:16.0.1] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6cef2fa3bfa0d8d3cfbf342ea06e3b4f/transformed/jetified-play-services-appset-16.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/c1ab8423816ac7af7d9c218a3a59eabc/transformed/jetified-play-services-base-18.0.0/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/e9229d9f317b3b8ba1f4f5f414e9c2a0/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/5e4fd31022f31dfadf1abe87c8eefc46/transformed/jetified-play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.ump:user-messaging-platform:2.2.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/ad172d4427f97008992d2b77d48da3d3/transformed/jetified-user-messaging-platform-2.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-measurement-base:20.1.2] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/52692bc9aabfc97a9cb35f1e675c05f7/transformed/jetified-play-services-measurement-base-20.1.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/5d5360fedeff10b731015c1878f39447/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/cd9db61ab88bfe0d888c1d3eff038aa7/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.material3:material3-android:1.2.1] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/2c5422eecc61b2560c9634665e4f271d/transformed/jetified-material3-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-android:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/fdf77a564fb30925330bb6069d44c5d9/transformed/jetified-material-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/ec0ed6e00e80545ca7731afb77697ae4/transformed/jetified-material-icons-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/2cdc91849ec67185bf1f15306e6b0e46/transformed/jetified-material-ripple-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/3800428047fd3a8f308775dddbc9d3c3/transformed/jetified-foundation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/710fbbb5caaabea8558c891819e9a95d/transformed/jetified-animation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/60614c00059cc19acd595e987af65da0/transformed/jetified-foundation-layout-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/83874bf4da0f9505632792fa4a01bc81/transformed/jetified-animation-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/3bb65e1a08e8061b42adffb05f8f0be2/transformed/jetified-ui-tooling-data-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a85f0b5f7f656d7dba9b565deb2396bd/transformed/jetified-ui-unit-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/1a15ac70c4118da77bb60c4737192627/transformed/jetified-ui-geometry-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/5a146c8f5bc0393d6c828c76ee35a5de/transformed/jetified-ui-util-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a1b9f3827b90779ab9abe5b7025a10ec/transformed/jetified-ui-text-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/f252540984b7329cfa984fb03805cef3/transformed/jetified-ui-tooling-preview-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/592be31b983443483fcd67ea1717182c/transformed/jetified-ui-tooling-release/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/44b95d203d7d15c51a05837bff370d44/transformed/jetified-ui-graphics-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4ea5beeb8f8d9cba1dbf5ffbb1ac64fc/transformed/jetified-ui-test-manifest-1.6.5/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.ui:ui-android:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/8ff2d1870545462a0c18a9663d9c75db/transformed/jetified-ui-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-ktx:1.8.2] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/51b851ca3a3f82d68bb61c152e7d2674/transformed/jetified-activity-ktx-1.8.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-compose:1.8.2] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/883cdc9c85495b7bb6256bc237f967e3/transformed/jetified-activity-compose-1.8.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.8.2] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/414ee70ea504cb43fd37d6cae61cae0a/transformed/jetified-activity-1.8.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.browser:browser:1.4.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/e69410aee9473a3cc19dc313779b5068/transformed/browser-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/1fce54d94d453d928bece014616d5e2a/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4c05b579087e0a0184b1465c85c81c42/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/b792d4a1c021c99b6a00dd0980bf1601/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/8556351e7fba8a8ee237b775be3adabb/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/ede4282fe740996de0650bd5bd3cdcdc/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/627aede6464234726cdc0448ce15d052/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/f0df1382350152a34ffd2ef73230d46e/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:17:1-145:12
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/2e7021824bf5307466cb7fe661a03226/transformed/jetified-autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4131e521babd550868f43db7dbd031fc/transformed/jetified-emoji2-views-helper-1.3.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/c212e874241cb1b6df65eef19df35673/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
 MERGED from [androidx.core:core:1.12.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6d3b3cb1ee12db3b50f8898ca61e50cf/transformed/core-1.12.0/AndroidManifest.xml:17:1-30:12
-MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/de04509e06343a5c6b7eeda617955077/transformed/ads-adservices-java-1.0.0-beta05/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/fea81d7e2d4c1de6f4132482282c949f/transformed/ads-adservices-1.0.0-beta05/AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/ae5c8eaa6ffc8af39f3988f816ab0756/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
-MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4f5476382b08d74338128590f64e470a/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:17:1-35:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/d7725db0008ca6d20d19b50f8895070d/transformed/lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/5fe5034a7d5fe7428c9ccc98211d1515/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-service:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/ec9f7b399a5c225464b6936d280cf705/transformed/lifecycle-service-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a6a25ca855eb5afd6437ef8dd362256c/transformed/jetified-ads-adservices-java-1.0.0-beta05/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/e47a2e3781377b453a38e030ff3a7435/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/fd88d7cdcaee039603baca8d01dacf40/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/e6da19c6a6519876afb6215228304cc3/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/cf1f011f92889689106ea91894275121/transformed/jetified-lifecycle-service-2.7.0/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/d9b29913a0300db7a401552d12188c53/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/2bc5d7010017141f3ff71617f0584cb8/transformed/lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/0c963fd608d47bc0fdc602dc201cf428/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/c1237fedaea334d58a09a8cefc79d02a/transformed/lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/5fe5034a7d5fe7428c9ccc98211d1515/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/1d683307c551cb7014fb2c27a04a7532/transformed/jetified-lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/0c5ecb33e84b42ef602965990a233805/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/9017f107fe3429950910d7a9418c677e/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/507d6ac13dffd334abf9dce0006cbfd1/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/638ff60500aa1c7dc83dce8ec551677e/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/2257be4b81d30c94fab332278c35225c/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/c0b06ca6918509870d3d5f9d6a17f85b/transformed/lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core-ktx:1.12.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/3a4022edf8ea46f2f99b6b2f4d64d81c/transformed/core-ktx-1.12.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/22215bc57ca95032272da05858bb5ecf/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/7795264e069b24ded37f2f77c075467b/transformed/runtime-saveable-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.runtime:runtime-android:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/616786ae24bbb8d60372300df06a6aa8/transformed/runtime-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/8d229eca2ef453334016473100deb400/transformed/jetified-lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/0c963fd608d47bc0fdc602dc201cf428/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/8d34903dca3c0068decbe14d356e2ee3/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/f6335d60ff8e6bc47073975282a53772/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.12.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/88d8717729f175d8c47969dd95c8bb51/transformed/jetified-core-ktx-1.12.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/42ea73201aaff39a48784a02bd3cef0d/transformed/jetified-runtime-saveable-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/1ee6bc409640bd56a1c8745d0e9eb691/transformed/jetified-runtime-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/12550640deb5b32a15ec2ab6b8635a74/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/765ba1358efd7e4e7561a566f6d23c4c/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/8579d6eae5a9b61905a9b1b15ef5ac47/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/8cbc886fa63ee60c32aa878f1d5fe62d/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.room:room-runtime:2.2.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/38e51f147c5469aaf6162aa89e80f0bd/transformed/room-runtime-2.2.5/AndroidManifest.xml:17:1-31:12
 MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/9f29789a315f9817d8345a6d9c04a02f/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/351c92a477d0b20cb729f418754983c1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:17:1-55:12
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/58c9334d1d628b39365996652eb5fd65/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/770a0d98f44c5cf35d72c6361b88b877/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/041d7246436673b739b988636b32025c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/f945e9102e6aa5b0b7a4cc8591b82361/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/d26d689ea0761cfd81642715a75d77d5/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/7afbc66dfbfa47fa9d5069433824d6ac/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6f5edee10ed461691349e3e917eae461/transformed/sqlite-2.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/8579d6eae5a9b61905a9b1b15ef5ac47/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/e1f7e7f226e84ef7b9cc545ddfdd11d3/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/ea06dd9d7d967552d3e88a1b602c17e7/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/50eba212a672c4eb8ffadaa0ff3331dc/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 	package
-		INJECTED from /Users/yanadoo/AndroidStudioProjects/claude-mcp-test/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yanadoo/Documents/test-folder/claude-mcp-test/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/yanadoo/AndroidStudioProjects/claude-mcp-test/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yanadoo/Documents/test-folder/claude-mcp-test/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/yanadoo/AndroidStudioProjects/claude-mcp-test/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yanadoo/Documents/test-folder/claude-mcp-test/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/yanadoo/AndroidStudioProjects/claude-mcp-test/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/yanadoo/Documents/test-folder/claude-mcp-test/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/yanadoo/AndroidStudioProjects/claude-mcp-test/app/src/main/AndroidManifest.xml:3:5-21:19
-INJECTED from /Users/yanadoo/AndroidStudioProjects/claude-mcp-test/app/src/main/AndroidManifest.xml:3:5-21:19
-MERGED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:53:5-93:19
-MERGED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:53:5-93:19
-MERGED from [com.google.android.gms:play-services-ads-base:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6447d2c3902ab032ac09f4d73a0580ca/transformed/play-services-ads-base-23.0.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-ads-base:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6447d2c3902ab032ac09f4d73a0580ca/transformed/play-services-ads-base-23.0.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/9af50f3b3be8c6c57a265b5e088a7141/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
-MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/9af50f3b3be8c6c57a265b5e088a7141/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
-MERGED from [com.google.android.gms:play-services-appset:16.0.1] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/c55afec62381cbcf37c535822edd4b64/transformed/play-services-appset-16.0.1/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-appset:16.0.1] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/c55afec62381cbcf37c535822edd4b64/transformed/play-services-appset-16.0.1/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-base:18.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/77a1bb3640431e38d74cd80855983352/transformed/play-services-base-18.0.0/AndroidManifest.xml:19:5-23:19
-MERGED from [com.google.android.gms:play-services-base:18.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/77a1bb3640431e38d74cd80855983352/transformed/play-services-base-18.0.0/AndroidManifest.xml:19:5-23:19
-MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/f1b46b3f0ade31e3186b1d9c426fb361/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/f1b46b3f0ade31e3186b1d9c426fb361/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-measurement-base:20.1.2] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/f139dba71add269e5b45af619a35d76a/transformed/play-services-measurement-base-20.1.2/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-measurement-base:20.1.2] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/f139dba71add269e5b45af619a35d76a/transformed/play-services-measurement-base-20.1.2/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/b685fcc9d722e56bab91bfa569ab17eb/transformed/play-services-basement-18.2.0/AndroidManifest.xml:20:5-24:19
-MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/b685fcc9d722e56bab91bfa569ab17eb/transformed/play-services-basement-18.2.0/AndroidManifest.xml:20:5-24:19
-MERGED from [androidx.compose.ui:ui-test-manifest:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4ddaa85caeae0c5cfea81287d11b2c2f/transformed/ui-test-manifest-1.6.0/AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.compose.ui:ui-test-manifest:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4ddaa85caeae0c5cfea81287d11b2c2f/transformed/ui-test-manifest-1.6.0/AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.compose.ui:ui-tooling-android:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a0dab6f4f188193c7de0c0f71ae404c4/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.compose.ui:ui-tooling-android:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a0dab6f4f188193c7de0c0f71ae404c4/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+ADDED from /Users/yanadoo/Documents/test-folder/claude-mcp-test/app/src/main/AndroidManifest.xml:3:5-22:19
+INJECTED from /Users/yanadoo/Documents/test-folder/claude-mcp-test/app/src/main/AndroidManifest.xml:3:5-22:19
+MERGED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:53:5-93:19
+MERGED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:53:5-93:19
+MERGED from [com.google.android.gms:play-services-ads-base:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/ef7a1ea41e6d39842db05ce5dd77b369/transformed/jetified-play-services-ads-base-23.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-base:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/ef7a1ea41e6d39842db05ce5dd77b369/transformed/jetified-play-services-ads-base-23.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/5b666c397966d9b6e9cbbe43ab408ab9/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/5b666c397966d9b6e9cbbe43ab408ab9/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-appset:16.0.1] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6cef2fa3bfa0d8d3cfbf342ea06e3b4f/transformed/jetified-play-services-appset-16.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-appset:16.0.1] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6cef2fa3bfa0d8d3cfbf342ea06e3b4f/transformed/jetified-play-services-appset-16.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:18.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/c1ab8423816ac7af7d9c218a3a59eabc/transformed/jetified-play-services-base-18.0.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/c1ab8423816ac7af7d9c218a3a59eabc/transformed/jetified-play-services-base-18.0.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/e9229d9f317b3b8ba1f4f5f414e9c2a0/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/e9229d9f317b3b8ba1f4f5f414e9c2a0/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:20.1.2] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/52692bc9aabfc97a9cb35f1e675c05f7/transformed/jetified-play-services-measurement-base-20.1.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:20.1.2] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/52692bc9aabfc97a9cb35f1e675c05f7/transformed/jetified-play-services-measurement-base-20.1.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/5d5360fedeff10b731015c1878f39447/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/5d5360fedeff10b731015c1878f39447/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/592be31b983443483fcd67ea1717182c/transformed/jetified-ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/592be31b983443483fcd67ea1717182c/transformed/jetified-ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4ea5beeb8f8d9cba1dbf5ffbb1ac64fc/transformed/jetified-ui-test-manifest-1.6.5/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4ea5beeb8f8d9cba1dbf5ffbb1ac64fc/transformed/jetified-ui-test-manifest-1.6.5/AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:30:5-143:19
 MERGED from [androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:30:5-143:19
-MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/b239fad4e688baa9f78d6f54c04f3a19/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/b239fad4e688baa9f78d6f54c04f3a19/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/c212e874241cb1b6df65eef19df35673/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/c212e874241cb1b6df65eef19df35673/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.core:core:1.12.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6d3b3cb1ee12db3b50f8898ca61e50cf/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
 MERGED from [androidx.core:core:1.12.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6d3b3cb1ee12db3b50f8898ca61e50cf/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
-MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/fea81d7e2d4c1de6f4132482282c949f/transformed/ads-adservices-1.0.0-beta05/AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/fea81d7e2d4c1de6f4132482282c949f/transformed/ads-adservices-1.0.0-beta05/AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4f5476382b08d74338128590f64e470a/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4f5476382b08d74338128590f64e470a/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/e47a2e3781377b453a38e030ff3a7435/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/e47a2e3781377b453a38e030ff3a7435/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/fd88d7cdcaee039603baca8d01dacf40/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/fd88d7cdcaee039603baca8d01dacf40/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/765ba1358efd7e4e7561a566f6d23c4c/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/765ba1358efd7e4e7561a566f6d23c4c/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.room:room-runtime:2.2.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/38e51f147c5469aaf6162aa89e80f0bd/transformed/room-runtime-2.2.5/AndroidManifest.xml:24:5-29:19
 MERGED from [androidx.room:room-runtime:2.2.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/38e51f147c5469aaf6162aa89e80f0bd/transformed/room-runtime-2.2.5/AndroidManifest.xml:24:5-29:19
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/351c92a477d0b20cb729f418754983c1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/351c92a477d0b20cb729f418754983c1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/58c9334d1d628b39365996652eb5fd65/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/58c9334d1d628b39365996652eb5fd65/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/041d7246436673b739b988636b32025c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/041d7246436673b739b988636b32025c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/f945e9102e6aa5b0b7a4cc8591b82361/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/f945e9102e6aa5b0b7a4cc8591b82361/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
 	android:extractNativeLibs
-		INJECTED from /Users/yanadoo/AndroidStudioProjects/claude-mcp-test/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yanadoo/Documents/test-folder/claude-mcp-test/app/src/main/AndroidManifest.xml
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.12.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6d3b3cb1ee12db3b50f8898ca61e50cf/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from /Users/yanadoo/AndroidStudioProjects/claude-mcp-test/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /Users/yanadoo/Documents/test-folder/claude-mcp-test/app/src/main/AndroidManifest.xml:6:9-35
 	android:label
-		ADDED from /Users/yanadoo/AndroidStudioProjects/claude-mcp-test/app/src/main/AndroidManifest.xml:5:9-40
+		ADDED from /Users/yanadoo/Documents/test-folder/claude-mcp-test/app/src/main/AndroidManifest.xml:5:9-40
 	android:allowBackup
-		ADDED from /Users/yanadoo/AndroidStudioProjects/claude-mcp-test/app/src/main/AndroidManifest.xml:4:9-35
-	android:theme
-		ADDED from /Users/yanadoo/AndroidStudioProjects/claude-mcp-test/app/src/main/AndroidManifest.xml:7:9-67
+		ADDED from /Users/yanadoo/Documents/test-folder/claude-mcp-test/app/src/main/AndroidManifest.xml:4:9-35
 meta-data#com.google.android.gms.ads.APPLICATION_ID
-ADDED from /Users/yanadoo/AndroidStudioProjects/claude-mcp-test/app/src/main/AndroidManifest.xml:9:9-11:69
+ADDED from /Users/yanadoo/Documents/test-folder/claude-mcp-test/app/src/main/AndroidManifest.xml:10:9-12:69
 	android:value
-		ADDED from /Users/yanadoo/AndroidStudioProjects/claude-mcp-test/app/src/main/AndroidManifest.xml:11:13-67
+		ADDED from /Users/yanadoo/Documents/test-folder/claude-mcp-test/app/src/main/AndroidManifest.xml:12:13-67
 	android:name
-		ADDED from /Users/yanadoo/AndroidStudioProjects/claude-mcp-test/app/src/main/AndroidManifest.xml:10:13-69
+		ADDED from /Users/yanadoo/Documents/test-folder/claude-mcp-test/app/src/main/AndroidManifest.xml:11:13-69
 activity#com.dduddupark.test.MainActivity
-ADDED from /Users/yanadoo/AndroidStudioProjects/claude-mcp-test/app/src/main/AndroidManifest.xml:13:9-20:20
+ADDED from /Users/yanadoo/Documents/test-folder/claude-mcp-test/app/src/main/AndroidManifest.xml:14:9-21:20
 	android:exported
-		ADDED from /Users/yanadoo/AndroidStudioProjects/claude-mcp-test/app/src/main/AndroidManifest.xml:15:13-36
+		ADDED from /Users/yanadoo/Documents/test-folder/claude-mcp-test/app/src/main/AndroidManifest.xml:16:13-36
 	android:name
-		ADDED from /Users/yanadoo/AndroidStudioProjects/claude-mcp-test/app/src/main/AndroidManifest.xml:14:13-41
+		ADDED from /Users/yanadoo/Documents/test-folder/claude-mcp-test/app/src/main/AndroidManifest.xml:15:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/yanadoo/AndroidStudioProjects/claude-mcp-test/app/src/main/AndroidManifest.xml:16:13-19:29
+ADDED from /Users/yanadoo/Documents/test-folder/claude-mcp-test/app/src/main/AndroidManifest.xml:17:13-20:29
 action#android.intent.action.MAIN
-ADDED from /Users/yanadoo/AndroidStudioProjects/claude-mcp-test/app/src/main/AndroidManifest.xml:17:17-69
+ADDED from /Users/yanadoo/Documents/test-folder/claude-mcp-test/app/src/main/AndroidManifest.xml:18:17-69
 	android:name
-		ADDED from /Users/yanadoo/AndroidStudioProjects/claude-mcp-test/app/src/main/AndroidManifest.xml:17:25-66
+		ADDED from /Users/yanadoo/Documents/test-folder/claude-mcp-test/app/src/main/AndroidManifest.xml:18:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/yanadoo/AndroidStudioProjects/claude-mcp-test/app/src/main/AndroidManifest.xml:18:17-77
+ADDED from /Users/yanadoo/Documents/test-folder/claude-mcp-test/app/src/main/AndroidManifest.xml:19:17-77
 	android:name
-		ADDED from /Users/yanadoo/AndroidStudioProjects/claude-mcp-test/app/src/main/AndroidManifest.xml:18:27-74
+		ADDED from /Users/yanadoo/Documents/test-folder/claude-mcp-test/app/src/main/AndroidManifest.xml:19:27-74
 uses-sdk
-INJECTED from /Users/yanadoo/AndroidStudioProjects/claude-mcp-test/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/yanadoo/AndroidStudioProjects/claude-mcp-test/app/src/main/AndroidManifest.xml
-INJECTED from /Users/yanadoo/AndroidStudioProjects/claude-mcp-test/app/src/main/AndroidManifest.xml
-MERGED from [com.google.android.gms:play-services-ads:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/781c76add34270309e7edceb0854caba/transformed/play-services-ads-23.0.0/AndroidManifest.xml:21:5-23:52
-MERGED from [com.google.android.gms:play-services-ads:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/781c76add34270309e7edceb0854caba/transformed/play-services-ads-23.0.0/AndroidManifest.xml:21:5-23:52
-MERGED from [androidx.browser:browser:1.4.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/e69410aee9473a3cc19dc313779b5068/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.browser:browser:1.4.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/e69410aee9473a3cc19dc313779b5068/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:21:5-44
-MERGED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:21:5-44
-MERGED from [com.google.android.gms:play-services-ads-base:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6447d2c3902ab032ac09f4d73a0580ca/transformed/play-services-ads-base-23.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-ads-base:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6447d2c3902ab032ac09f4d73a0580ca/transformed/play-services-ads-base-23.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/9af50f3b3be8c6c57a265b5e088a7141/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/9af50f3b3be8c6c57a265b5e088a7141/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-appset:16.0.1] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/c55afec62381cbcf37c535822edd4b64/transformed/play-services-appset-16.0.1/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-appset:16.0.1] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/c55afec62381cbcf37c535822edd4b64/transformed/play-services-appset-16.0.1/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-base:18.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/77a1bb3640431e38d74cd80855983352/transformed/play-services-base-18.0.0/AndroidManifest.xml:18:5-43
-MERGED from [com.google.android.gms:play-services-base:18.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/77a1bb3640431e38d74cd80855983352/transformed/play-services-base-18.0.0/AndroidManifest.xml:18:5-43
-MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/f1b46b3f0ade31e3186b1d9c426fb361/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/f1b46b3f0ade31e3186b1d9c426fb361/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/90599ce1ab43a994f10412d9d22b93a4/transformed/play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/90599ce1ab43a994f10412d9d22b93a4/transformed/play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.ump:user-messaging-platform:2.2.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/2e9bbda1cd3d9d2773d3048f99914867/transformed/user-messaging-platform-2.2.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.ump:user-messaging-platform:2.2.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/2e9bbda1cd3d9d2773d3048f99914867/transformed/user-messaging-platform-2.2.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-measurement-base:20.1.2] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/f139dba71add269e5b45af619a35d76a/transformed/play-services-measurement-base-20.1.2/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-measurement-base:20.1.2] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/f139dba71add269e5b45af619a35d76a/transformed/play-services-measurement-base-20.1.2/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/b685fcc9d722e56bab91bfa569ab17eb/transformed/play-services-basement-18.2.0/AndroidManifest.xml:18:5-43
-MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/b685fcc9d722e56bab91bfa569ab17eb/transformed/play-services-basement-18.2.0/AndroidManifest.xml:18:5-43
-MERGED from [androidx.compose.material3:material3:1.1.2] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/b04afffbad58495c897af90a9146fbef/transformed/material3-1.1.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.material3:material3:1.1.2] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/b04afffbad58495c897af90a9146fbef/transformed/material3-1.1.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.8.2] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/8cff5772def6acd6840198bf8bfcd567/transformed/activity-1.8.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.8.2] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/8cff5772def6acd6840198bf8bfcd567/transformed/activity-1.8.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity-ktx:1.8.2] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/033026cc9a30ff8a872da9ada25b0567/transformed/activity-ktx-1.8.2/AndroidManifest.xml:5:5-44
-MERGED from [androidx.activity:activity-ktx:1.8.2] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/033026cc9a30ff8a872da9ada25b0567/transformed/activity-ktx-1.8.2/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-ripple-android:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/e2bc9b63581fb6af5507eef661b181d3/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-ripple-android:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/e2bc9b63581fb6af5507eef661b181d3/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-icons-core-android:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/e1fd08d3e5dc7f233ababb4541afb2fd/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-icons-core-android:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/e1fd08d3e5dc7f233ababb4541afb2fd/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-android:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a3d496fba6baeee9b840784c1c1ed94c/transformed/material-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-android:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a3d496fba6baeee9b840784c1c1ed94c/transformed/material-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.animation:animation-core-android:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/41c8c7c3db2eac33382b317212022e98/transformed/animation-core-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.animation:animation-core-android:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/41c8c7c3db2eac33382b317212022e98/transformed/animation-core-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.animation:animation-android:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/f4a836d351a2f68704a3d2a0cadb71fd/transformed/animation-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.animation:animation-android:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/f4a836d351a2f68704a3d2a0cadb71fd/transformed/animation-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/f6f4097f6155ab1009943cd44a521d4d/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/f6f4097f6155ab1009943cd44a521d4d/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.foundation:foundation-android:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/3e2af57449e587674c26f6d0e4b6a412/transformed/foundation-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.foundation:foundation-android:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/3e2af57449e587674c26f6d0e4b6a412/transformed/foundation-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/3791941f4ad6f54e189f374707ea938f/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/3791941f4ad6f54e189f374707ea938f/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-unit-android:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6234255a5d40fd88c4f2f76b8dedb2e9/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-unit-android:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6234255a5d40fd88c4f2f76b8dedb2e9/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-geometry-android:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/5c8aa5a883578b136b7d7649a29a3ed5/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-geometry-android:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/5c8aa5a883578b136b7d7649a29a3ed5/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-util-android:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/59a64205ba3b3c4f7f40382030934cce/transformed/ui-util-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-util-android:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/59a64205ba3b3c4f7f40382030934cce/transformed/ui-util-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-text-android:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/c3a4673901f27db6238695e12f419db7/transformed/ui-text-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-text-android:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/c3a4673901f27db6238695e12f419db7/transformed/ui-text-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/99123b38dd8a542913d984c8694a2be0/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/99123b38dd8a542913d984c8694a2be0/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-graphics-android:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a31c8c6ba9cbf9f9ddd6df3de817a1eb/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-graphics-android:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a31c8c6ba9cbf9f9ddd6df3de817a1eb/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-test-manifest:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4ddaa85caeae0c5cfea81287d11b2c2f/transformed/ui-test-manifest-1.6.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-test-manifest:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4ddaa85caeae0c5cfea81287d11b2c2f/transformed/ui-test-manifest-1.6.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-tooling-android:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a0dab6f4f188193c7de0c0f71ae404c4/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-tooling-android:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a0dab6f4f188193c7de0c0f71ae404c4/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity-compose:1.8.2] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/8ef99bda6f29d59339ce3984560e8978/transformed/activity-compose-1.8.2/AndroidManifest.xml:5:5-44
-MERGED from [androidx.activity:activity-compose:1.8.2] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/8ef99bda6f29d59339ce3984560e8978/transformed/activity-compose-1.8.2/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-android:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/8d54f526ab8119cb5c391b5c882a6d01/transformed/ui-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-android:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/8d54f526ab8119cb5c391b5c882a6d01/transformed/ui-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.fragment:fragment:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6ad4db03f3f1fbf5e536d91d3fe8b123/transformed/fragment-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6ad4db03f3f1fbf5e536d91d3fe8b123/transformed/fragment-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.autofill:autofill:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a75465ffd336607519fb9715638432b4/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.autofill:autofill:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a75465ffd336607519fb9715638432b4/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/204040b0f11c6b3848b019087b432417/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/204040b0f11c6b3848b019087b432417/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/dcf782c24b9c76602a1c3816a268788d/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/dcf782c24b9c76602a1c3816a268788d/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/f0df1382350152a34ffd2ef73230d46e/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/f0df1382350152a34ffd2ef73230d46e/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/b239fad4e688baa9f78d6f54c04f3a19/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/b239fad4e688baa9f78d6f54c04f3a19/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/b792d4a1c021c99b6a00dd0980bf1601/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/b792d4a1c021c99b6a00dd0980bf1601/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/81ea49af14559d6600200de21d4d8e37/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/81ea49af14559d6600200de21d4d8e37/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/yanadoo/Documents/test-folder/claude-mcp-test/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/yanadoo/Documents/test-folder/claude-mcp-test/app/src/main/AndroidManifest.xml
+INJECTED from /Users/yanadoo/Documents/test-folder/claude-mcp-test/app/src/main/AndroidManifest.xml
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/b41b64d612d1efa2e2213dd20ae70143/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/b41b64d612d1efa2e2213dd20ae70143/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/ef383254d7ed336647320bff66369b36/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/ef383254d7ed336647320bff66369b36/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/7661b79a006d5de6ee8940ce6420bcf8/transformed/jetified-play-services-ads-23.0.0/AndroidManifest.xml:21:5-23:52
+MERGED from [com.google.android.gms:play-services-ads:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/7661b79a006d5de6ee8940ce6420bcf8/transformed/jetified-play-services-ads-23.0.0/AndroidManifest.xml:21:5-23:52
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a4d3d1e4401d8ca225f6106e2ed34766/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a4d3d1e4401d8ca225f6106e2ed34766/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/f985e080cf2092fa275e3c91c956a98a/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/f985e080cf2092fa275e3c91c956a98a/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/ef7a1ea41e6d39842db05ce5dd77b369/transformed/jetified-play-services-ads-base-23.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/ef7a1ea41e6d39842db05ce5dd77b369/transformed/jetified-play-services-ads-base-23.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/5b666c397966d9b6e9cbbe43ab408ab9/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/5b666c397966d9b6e9cbbe43ab408ab9/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-appset:16.0.1] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6cef2fa3bfa0d8d3cfbf342ea06e3b4f/transformed/jetified-play-services-appset-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-appset:16.0.1] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6cef2fa3bfa0d8d3cfbf342ea06e3b4f/transformed/jetified-play-services-appset-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/c1ab8423816ac7af7d9c218a3a59eabc/transformed/jetified-play-services-base-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/c1ab8423816ac7af7d9c218a3a59eabc/transformed/jetified-play-services-base-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/e9229d9f317b3b8ba1f4f5f414e9c2a0/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/e9229d9f317b3b8ba1f4f5f414e9c2a0/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/5e4fd31022f31dfadf1abe87c8eefc46/transformed/jetified-play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/5e4fd31022f31dfadf1abe87c8eefc46/transformed/jetified-play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.ump:user-messaging-platform:2.2.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/ad172d4427f97008992d2b77d48da3d3/transformed/jetified-user-messaging-platform-2.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.ump:user-messaging-platform:2.2.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/ad172d4427f97008992d2b77d48da3d3/transformed/jetified-user-messaging-platform-2.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:20.1.2] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/52692bc9aabfc97a9cb35f1e675c05f7/transformed/jetified-play-services-measurement-base-20.1.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:20.1.2] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/52692bc9aabfc97a9cb35f1e675c05f7/transformed/jetified-play-services-measurement-base-20.1.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/5d5360fedeff10b731015c1878f39447/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/5d5360fedeff10b731015c1878f39447/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/cd9db61ab88bfe0d888c1d3eff038aa7/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/cd9db61ab88bfe0d888c1d3eff038aa7/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material3:material3-android:1.2.1] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/2c5422eecc61b2560c9634665e4f271d/transformed/jetified-material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.2.1] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/2c5422eecc61b2560c9634665e4f271d/transformed/jetified-material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-android:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/fdf77a564fb30925330bb6069d44c5d9/transformed/jetified-material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/fdf77a564fb30925330bb6069d44c5d9/transformed/jetified-material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/ec0ed6e00e80545ca7731afb77697ae4/transformed/jetified-material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/ec0ed6e00e80545ca7731afb77697ae4/transformed/jetified-material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/2cdc91849ec67185bf1f15306e6b0e46/transformed/jetified-material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/2cdc91849ec67185bf1f15306e6b0e46/transformed/jetified-material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/3800428047fd3a8f308775dddbc9d3c3/transformed/jetified-foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/3800428047fd3a8f308775dddbc9d3c3/transformed/jetified-foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/710fbbb5caaabea8558c891819e9a95d/transformed/jetified-animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/710fbbb5caaabea8558c891819e9a95d/transformed/jetified-animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/60614c00059cc19acd595e987af65da0/transformed/jetified-foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/60614c00059cc19acd595e987af65da0/transformed/jetified-foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/83874bf4da0f9505632792fa4a01bc81/transformed/jetified-animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/83874bf4da0f9505632792fa4a01bc81/transformed/jetified-animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/3bb65e1a08e8061b42adffb05f8f0be2/transformed/jetified-ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/3bb65e1a08e8061b42adffb05f8f0be2/transformed/jetified-ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a85f0b5f7f656d7dba9b565deb2396bd/transformed/jetified-ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a85f0b5f7f656d7dba9b565deb2396bd/transformed/jetified-ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/1a15ac70c4118da77bb60c4737192627/transformed/jetified-ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/1a15ac70c4118da77bb60c4737192627/transformed/jetified-ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/5a146c8f5bc0393d6c828c76ee35a5de/transformed/jetified-ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/5a146c8f5bc0393d6c828c76ee35a5de/transformed/jetified-ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a1b9f3827b90779ab9abe5b7025a10ec/transformed/jetified-ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a1b9f3827b90779ab9abe5b7025a10ec/transformed/jetified-ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/f252540984b7329cfa984fb03805cef3/transformed/jetified-ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/f252540984b7329cfa984fb03805cef3/transformed/jetified-ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/592be31b983443483fcd67ea1717182c/transformed/jetified-ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/592be31b983443483fcd67ea1717182c/transformed/jetified-ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/44b95d203d7d15c51a05837bff370d44/transformed/jetified-ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/44b95d203d7d15c51a05837bff370d44/transformed/jetified-ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4ea5beeb8f8d9cba1dbf5ffbb1ac64fc/transformed/jetified-ui-test-manifest-1.6.5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4ea5beeb8f8d9cba1dbf5ffbb1ac64fc/transformed/jetified-ui-test-manifest-1.6.5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-android:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/8ff2d1870545462a0c18a9663d9c75db/transformed/jetified-ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/8ff2d1870545462a0c18a9663d9c75db/transformed/jetified-ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.2] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/51b851ca3a3f82d68bb61c152e7d2674/transformed/jetified-activity-ktx-1.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.2] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/51b851ca3a3f82d68bb61c152e7d2674/transformed/jetified-activity-ktx-1.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.8.2] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/883cdc9c85495b7bb6256bc237f967e3/transformed/jetified-activity-compose-1.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.8.2] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/883cdc9c85495b7bb6256bc237f967e3/transformed/jetified-activity-compose-1.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.8.2] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/414ee70ea504cb43fd37d6cae61cae0a/transformed/jetified-activity-1.8.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.2] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/414ee70ea504cb43fd37d6cae61cae0a/transformed/jetified-activity-1.8.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.4.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/e69410aee9473a3cc19dc313779b5068/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/e69410aee9473a3cc19dc313779b5068/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/1fce54d94d453d928bece014616d5e2a/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/1fce54d94d453d928bece014616d5e2a/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4c05b579087e0a0184b1465c85c81c42/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4c05b579087e0a0184b1465c85c81c42/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/b792d4a1c021c99b6a00dd0980bf1601/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/b792d4a1c021c99b6a00dd0980bf1601/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/8556351e7fba8a8ee237b775be3adabb/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/8556351e7fba8a8ee237b775be3adabb/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/ede4282fe740996de0650bd5bd3cdcdc/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/ede4282fe740996de0650bd5bd3cdcdc/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/627aede6464234726cdc0448ce15d052/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/627aede6464234726cdc0448ce15d052/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/f0df1382350152a34ffd2ef73230d46e/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/f0df1382350152a34ffd2ef73230d46e/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/2e7021824bf5307466cb7fe661a03226/transformed/jetified-autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/2e7021824bf5307466cb7fe661a03226/transformed/jetified-autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4131e521babd550868f43db7dbd031fc/transformed/jetified-emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4131e521babd550868f43db7dbd031fc/transformed/jetified-emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/c212e874241cb1b6df65eef19df35673/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/c212e874241cb1b6df65eef19df35673/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:21:5-44
 MERGED from [androidx.core:core:1.12.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6d3b3cb1ee12db3b50f8898ca61e50cf/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.12.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6d3b3cb1ee12db3b50f8898ca61e50cf/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/de04509e06343a5c6b7eeda617955077/transformed/ads-adservices-java-1.0.0-beta05/AndroidManifest.xml:5:5-44
-MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/de04509e06343a5c6b7eeda617955077/transformed/ads-adservices-java-1.0.0-beta05/AndroidManifest.xml:5:5-44
-MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/fea81d7e2d4c1de6f4132482282c949f/transformed/ads-adservices-1.0.0-beta05/AndroidManifest.xml:20:5-44
-MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/fea81d7e2d4c1de6f4132482282c949f/transformed/ads-adservices-1.0.0-beta05/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/ae5c8eaa6ffc8af39f3988f816ab0756/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
-MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/ae5c8eaa6ffc8af39f3988f816ab0756/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
-MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4f5476382b08d74338128590f64e470a/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4f5476382b08d74338128590f64e470a/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/d7725db0008ca6d20d19b50f8895070d/transformed/lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/d7725db0008ca6d20d19b50f8895070d/transformed/lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/5fe5034a7d5fe7428c9ccc98211d1515/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/5fe5034a7d5fe7428c9ccc98211d1515/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-service:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/ec9f7b399a5c225464b6936d280cf705/transformed/lifecycle-service-2.7.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-service:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/ec9f7b399a5c225464b6936d280cf705/transformed/lifecycle-service-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a6a25ca855eb5afd6437ef8dd362256c/transformed/jetified-ads-adservices-java-1.0.0-beta05/AndroidManifest.xml:5:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a6a25ca855eb5afd6437ef8dd362256c/transformed/jetified-ads-adservices-java-1.0.0-beta05/AndroidManifest.xml:5:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/e47a2e3781377b453a38e030ff3a7435/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:20:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/e47a2e3781377b453a38e030ff3a7435/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/fd88d7cdcaee039603baca8d01dacf40/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/fd88d7cdcaee039603baca8d01dacf40/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/e6da19c6a6519876afb6215228304cc3/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/e6da19c6a6519876afb6215228304cc3/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/cf1f011f92889689106ea91894275121/transformed/jetified-lifecycle-service-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/cf1f011f92889689106ea91894275121/transformed/jetified-lifecycle-service-2.7.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/d9b29913a0300db7a401552d12188c53/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/d9b29913a0300db7a401552d12188c53/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/2bc5d7010017141f3ff71617f0584cb8/transformed/lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/2bc5d7010017141f3ff71617f0584cb8/transformed/lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/0c963fd608d47bc0fdc602dc201cf428/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/0c963fd608d47bc0fdc602dc201cf428/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/c1237fedaea334d58a09a8cefc79d02a/transformed/lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/c1237fedaea334d58a09a8cefc79d02a/transformed/lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/5fe5034a7d5fe7428c9ccc98211d1515/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/5fe5034a7d5fe7428c9ccc98211d1515/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/1d683307c551cb7014fb2c27a04a7532/transformed/jetified-lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/1d683307c551cb7014fb2c27a04a7532/transformed/jetified-lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/0c5ecb33e84b42ef602965990a233805/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/0c5ecb33e84b42ef602965990a233805/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/9017f107fe3429950910d7a9418c677e/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/9017f107fe3429950910d7a9418c677e/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/507d6ac13dffd334abf9dce0006cbfd1/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/507d6ac13dffd334abf9dce0006cbfd1/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/638ff60500aa1c7dc83dce8ec551677e/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/638ff60500aa1c7dc83dce8ec551677e/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/2257be4b81d30c94fab332278c35225c/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/2257be4b81d30c94fab332278c35225c/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/c0b06ca6918509870d3d5f9d6a17f85b/transformed/lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/c0b06ca6918509870d3d5f9d6a17f85b/transformed/lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core-ktx:1.12.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/3a4022edf8ea46f2f99b6b2f4d64d81c/transformed/core-ktx-1.12.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.core:core-ktx:1.12.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/3a4022edf8ea46f2f99b6b2f4d64d81c/transformed/core-ktx-1.12.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/22215bc57ca95032272da05858bb5ecf/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/22215bc57ca95032272da05858bb5ecf/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/7795264e069b24ded37f2f77c075467b/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/7795264e069b24ded37f2f77c075467b/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.runtime:runtime-android:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/616786ae24bbb8d60372300df06a6aa8/transformed/runtime-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.runtime:runtime-android:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/616786ae24bbb8d60372300df06a6aa8/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/8d229eca2ef453334016473100deb400/transformed/jetified-lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/8d229eca2ef453334016473100deb400/transformed/jetified-lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/0c963fd608d47bc0fdc602dc201cf428/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/0c963fd608d47bc0fdc602dc201cf428/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/8d34903dca3c0068decbe14d356e2ee3/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/8d34903dca3c0068decbe14d356e2ee3/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/f6335d60ff8e6bc47073975282a53772/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/f6335d60ff8e6bc47073975282a53772/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.12.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/88d8717729f175d8c47969dd95c8bb51/transformed/jetified-core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/88d8717729f175d8c47969dd95c8bb51/transformed/jetified-core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/42ea73201aaff39a48784a02bd3cef0d/transformed/jetified-runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/42ea73201aaff39a48784a02bd3cef0d/transformed/jetified-runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/1ee6bc409640bd56a1c8745d0e9eb691/transformed/jetified-runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/1ee6bc409640bd56a1c8745d0e9eb691/transformed/jetified-runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/12550640deb5b32a15ec2ab6b8635a74/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/12550640deb5b32a15ec2ab6b8635a74/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/765ba1358efd7e4e7561a566f6d23c4c/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/765ba1358efd7e4e7561a566f6d23c4c/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/8579d6eae5a9b61905a9b1b15ef5ac47/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/8579d6eae5a9b61905a9b1b15ef5ac47/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/8cbc886fa63ee60c32aa878f1d5fe62d/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/8cbc886fa63ee60c32aa878f1d5fe62d/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.room:room-runtime:2.2.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/38e51f147c5469aaf6162aa89e80f0bd/transformed/room-runtime-2.2.5/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.room:room-runtime:2.2.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/38e51f147c5469aaf6162aa89e80f0bd/transformed/room-runtime-2.2.5/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/9f29789a315f9817d8345a6d9c04a02f/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/9f29789a315f9817d8345a6d9c04a02f/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/351c92a477d0b20cb729f418754983c1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/351c92a477d0b20cb729f418754983c1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/58c9334d1d628b39365996652eb5fd65/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/58c9334d1d628b39365996652eb5fd65/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/770a0d98f44c5cf35d72c6361b88b877/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/770a0d98f44c5cf35d72c6361b88b877/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/041d7246436673b739b988636b32025c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/041d7246436673b739b988636b32025c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/f945e9102e6aa5b0b7a4cc8591b82361/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/f945e9102e6aa5b0b7a4cc8591b82361/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/d26d689ea0761cfd81642715a75d77d5/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/d26d689ea0761cfd81642715a75d77d5/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/7afbc66dfbfa47fa9d5069433824d6ac/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/7afbc66dfbfa47fa9d5069433824d6ac/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6f5edee10ed461691349e3e917eae461/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6f5edee10ed461691349e3e917eae461/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/8579d6eae5a9b61905a9b1b15ef5ac47/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/8579d6eae5a9b61905a9b1b15ef5ac47/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/e1f7e7f226e84ef7b9cc545ddfdd11d3/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/e1f7e7f226e84ef7b9cc545ddfdd11d3/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/ea06dd9d7d967552d3e88a1b602c17e7/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/ea06dd9d7d967552d3e88a1b602c17e7/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/50eba212a672c4eb8ffadaa0ff3331dc/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/50eba212a672c4eb8ffadaa0ff3331dc/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
 	tools:overrideLibrary
-		ADDED from [com.google.android.gms:play-services-ads:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/781c76add34270309e7edceb0854caba/transformed/play-services-ads-23.0.0/AndroidManifest.xml:23:9-49
+		ADDED from [com.google.android.gms:play-services-ads:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/7661b79a006d5de6ee8940ce6420bcf8/transformed/jetified-play-services-ads-23.0.0/AndroidManifest.xml:23:9-49
 	android:targetSdkVersion
-		INJECTED from /Users/yanadoo/AndroidStudioProjects/claude-mcp-test/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yanadoo/Documents/test-folder/claude-mcp-test/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/yanadoo/AndroidStudioProjects/claude-mcp-test/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yanadoo/Documents/test-folder/claude-mcp-test/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/90599ce1ab43a994f10412d9d22b93a4/transformed/play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/90599ce1ab43a994f10412d9d22b93a4/transformed/play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:23:5-67
+ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/5e4fd31022f31dfadf1abe87c8eefc46/transformed/jetified-play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/5e4fd31022f31dfadf1abe87c8eefc46/transformed/jetified-play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:24:22-64
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:24:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:25:5-79
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/90599ce1ab43a994f10412d9d22b93a4/transformed/play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/90599ce1ab43a994f10412d9d22b93a4/transformed/play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:24:5-79
+ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/5e4fd31022f31dfadf1abe87c8eefc46/transformed/jetified-play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/5e4fd31022f31dfadf1abe87c8eefc46/transformed/jetified-play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:24:5-79
 MERGED from [androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:26:5-79
 MERGED from [androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:26:5-79
 	android:name
-		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:25:22-76
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:25:22-76
 uses-permission#com.google.android.gms.permission.AD_ID
-ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:26:5-79
-MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/9af50f3b3be8c6c57a265b5e088a7141/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
-MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/9af50f3b3be8c6c57a265b5e088a7141/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/90599ce1ab43a994f10412d9d22b93a4/transformed/play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:26:5-79
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/90599ce1ab43a994f10412d9d22b93a4/transformed/play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:26:5-79
+ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/5b666c397966d9b6e9cbbe43ab408ab9/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/5b666c397966d9b6e9cbbe43ab408ab9/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/5e4fd31022f31dfadf1abe87c8eefc46/transformed/jetified-play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/5e4fd31022f31dfadf1abe87c8eefc46/transformed/jetified-play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:26:5-79
 	android:name
-		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:26:22-76
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:26:22-76
 uses-permission#android.permission.ACCESS_ADSERVICES_AD_ID
-ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:27:5-82
+ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:27:5-82
 	android:name
-		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:27:22-79
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:27:22-79
 uses-permission#android.permission.ACCESS_ADSERVICES_ATTRIBUTION
-ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:28:5-88
+ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:28:5-88
 	android:name
-		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:28:22-85
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:28:22-85
 uses-permission#android.permission.ACCESS_ADSERVICES_TOPICS
-ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:29:5-83
+ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:29:5-83
 	android:name
-		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:29:22-80
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:29:22-80
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:30:5-32:31
+ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:30:5-32:31
 REJECTED from [androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:27:5-81
 	tools:node
-		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:32:9-28
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:32:9-28
 	android:name
-		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:31:9-65
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:31:9-65
 queries
-ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:35:5-51:15
+ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:35:5-51:15
 intent#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+data:scheme:https
-ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:38:9-44:18
+ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:38:9-44:18
 action#android.intent.action.VIEW
-ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:39:13-65
+ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:39:13-65
 	android:name
-		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:39:21-62
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:39:21-62
 category#android.intent.category.BROWSABLE
-ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:41:13-74
+ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:41:13-74
 	android:name
-		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:41:23-71
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:41:23-71
 data
-ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:43:13-44
+ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:43:13-44
 	android:scheme
-		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:43:19-41
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:43:19-41
 intent#action:name:android.support.customtabs.action.CustomTabsService
-ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:47:9-49:18
+ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:47:9-49:18
 action#android.support.customtabs.action.CustomTabsService
-ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:48:13-90
+ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:48:13-90
 	android:name
-		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:48:21-87
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:48:21-87
 activity#com.google.android.gms.ads.AdActivity
-ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:56:9-61:43
+ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:56:9-61:43
 	android:exported
-		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:59:13-37
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:59:13-37
 	tools:ignore
-		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:61:13-40
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:61:13-40
 	android:configChanges
-		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:58:13-122
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:58:13-122
 	android:theme
-		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:60:13-61
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:60:13-61
 	android:name
-		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:57:13-65
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:57:13-65
 provider#com.google.android.gms.ads.MobileAdsInitProvider
-ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:63:9-68:43
+ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:63:9-68:43
 	android:authorities
-		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:65:13-73
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:65:13-73
 	android:exported
-		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:66:13-37
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:66:13-37
 	tools:ignore
-		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:68:13-40
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:68:13-40
 	android:initOrder
-		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:67:13-36
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:67:13-36
 	android:name
-		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:64:13-76
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:64:13-76
 service#com.google.android.gms.ads.AdService
-ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:70:9-74:43
+ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:70:9-74:43
 	android:enabled
-		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:72:13-35
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:72:13-35
 	android:exported
-		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:73:13-37
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:73:13-37
 	tools:ignore
-		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:74:13-40
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:74:13-40
 	android:name
-		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:71:13-64
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:71:13-64
 activity#com.google.android.gms.ads.OutOfContextTestingActivity
-ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:76:9-80:43
+ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:76:9-80:43
 	android:exported
-		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:79:13-37
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:79:13-37
 	tools:ignore
-		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:80:13-40
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:80:13-40
 	android:configChanges
-		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:78:13-122
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:78:13-122
 	android:name
-		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:77:13-82
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:77:13-82
 activity#com.google.android.gms.ads.NotificationHandlerActivity
-ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:81:9-88:43
+ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:81:9-88:43
 	android:excludeFromRecents
-		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:83:13-46
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:83:13-46
 	android:launchMode
-		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:85:13-44
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:85:13-44
 	android:exported
-		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:84:13-37
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:84:13-37
 	tools:ignore
-		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:88:13-40
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:88:13-40
 	android:theme
-		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:87:13-72
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:87:13-72
 	android:taskAffinity
-		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:86:13-36
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:86:13-36
 	android:name
-		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:82:13-82
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:82:13-82
 property
-ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:90:9-92:62
+ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:90:9-92:62
 	android:resource
-		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:92:13-59
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:92:13-59
 	android:name
-		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6da143f6edff39abccd0380dafe78d69/transformed/play-services-ads-lite-23.0.0/AndroidManifest.xml:91:13-65
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4fb247387ac249d91af5cc04af06fc75/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:91:13-65
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:18.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/77a1bb3640431e38d74cd80855983352/transformed/play-services-base-18.0.0/AndroidManifest.xml:20:9-22:45
+ADDED from [com.google.android.gms:play-services-base:18.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/c1ab8423816ac7af7d9c218a3a59eabc/transformed/jetified-play-services-base-18.0.0/AndroidManifest.xml:20:9-22:45
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:18.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/77a1bb3640431e38d74cd80855983352/transformed/play-services-base-18.0.0/AndroidManifest.xml:22:19-43
+		ADDED from [com.google.android.gms:play-services-base:18.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/c1ab8423816ac7af7d9c218a3a59eabc/transformed/jetified-play-services-base-18.0.0/AndroidManifest.xml:22:19-43
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:18.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/77a1bb3640431e38d74cd80855983352/transformed/play-services-base-18.0.0/AndroidManifest.xml:21:19-78
+		ADDED from [com.google.android.gms:play-services-base:18.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/c1ab8423816ac7af7d9c218a3a59eabc/transformed/jetified-play-services-base-18.0.0/AndroidManifest.xml:21:19-78
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:18.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/77a1bb3640431e38d74cd80855983352/transformed/play-services-base-18.0.0/AndroidManifest.xml:20:19-85
+		ADDED from [com.google.android.gms:play-services-base:18.0.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/c1ab8423816ac7af7d9c218a3a59eabc/transformed/jetified-play-services-base-18.0.0/AndroidManifest.xml:20:19-85
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/90599ce1ab43a994f10412d9d22b93a4/transformed/play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:25:5-68
+ADDED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/5e4fd31022f31dfadf1abe87c8eefc46/transformed/jetified-play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:25:5-68
 MERGED from [androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:25:5-68
 MERGED from [androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:25:5-68
 	android:name
-		ADDED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/90599ce1ab43a994f10412d9d22b93a4/transformed/play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:25:22-65
+		ADDED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/5e4fd31022f31dfadf1abe87c8eefc46/transformed/jetified-play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:25:22-65
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:18.2.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/b685fcc9d722e56bab91bfa569ab17eb/transformed/play-services-basement-18.2.0/AndroidManifest.xml:21:9-23:69
+ADDED from [com.google.android.gms:play-services-basement:18.2.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/5d5360fedeff10b731015c1878f39447/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:21:9-23:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:18.2.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/b685fcc9d722e56bab91bfa569ab17eb/transformed/play-services-basement-18.2.0/AndroidManifest.xml:23:13-66
+		ADDED from [com.google.android.gms:play-services-basement:18.2.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/5d5360fedeff10b731015c1878f39447/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:23:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:18.2.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/b685fcc9d722e56bab91bfa569ab17eb/transformed/play-services-basement-18.2.0/AndroidManifest.xml:22:13-58
-activity#androidx.activity.ComponentActivity
-ADDED from [androidx.compose.ui:ui-test-manifest:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4ddaa85caeae0c5cfea81287d11b2c2f/transformed/ui-test-manifest-1.6.0/AndroidManifest.xml:23:9-25:39
-	android:exported
-		ADDED from [androidx.compose.ui:ui-test-manifest:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4ddaa85caeae0c5cfea81287d11b2c2f/transformed/ui-test-manifest-1.6.0/AndroidManifest.xml:25:13-36
-	android:name
-		ADDED from [androidx.compose.ui:ui-test-manifest:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4ddaa85caeae0c5cfea81287d11b2c2f/transformed/ui-test-manifest-1.6.0/AndroidManifest.xml:24:13-63
+		ADDED from [com.google.android.gms:play-services-basement:18.2.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/5d5360fedeff10b731015c1878f39447/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:22:13-58
 activity#androidx.compose.ui.tooling.PreviewActivity
-ADDED from [androidx.compose.ui:ui-tooling-android:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a0dab6f4f188193c7de0c0f71ae404c4/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+ADDED from [androidx.compose.ui:ui-tooling-android:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/592be31b983443483fcd67ea1717182c/transformed/jetified-ui-tooling-release/AndroidManifest.xml:23:9-25:39
 	android:exported
-		ADDED from [androidx.compose.ui:ui-tooling-android:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a0dab6f4f188193c7de0c0f71ae404c4/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/592be31b983443483fcd67ea1717182c/transformed/jetified-ui-tooling-release/AndroidManifest.xml:25:13-36
 	android:name
-		ADDED from [androidx.compose.ui:ui-tooling-android:1.6.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a0dab6f4f188193c7de0c0f71ae404c4/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/592be31b983443483fcd67ea1717182c/transformed/jetified-ui-tooling-release/AndroidManifest.xml:24:13-71
+activity#androidx.activity.ComponentActivity
+ADDED from [androidx.compose.ui:ui-test-manifest:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4ea5beeb8f8d9cba1dbf5ffbb1ac64fc/transformed/jetified-ui-test-manifest-1.6.5/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4ea5beeb8f8d9cba1dbf5ffbb1ac64fc/transformed/jetified-ui-test-manifest-1.6.5/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.6.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4ea5beeb8f8d9cba1dbf5ffbb1ac64fc/transformed/jetified-ui-test-manifest-1.6.5/AndroidManifest.xml:24:13-63
 uses-permission#android.permission.FOREGROUND_SERVICE
 ADDED from [androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:28:5-77
 	android:name
 		ADDED from [androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:28:22-74
 provider#androidx.startup.InitializationProvider
 ADDED from [androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:31:9-39:20
-MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/b239fad4e688baa9f78d6f54c04f3a19/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/b239fad4e688baa9f78d6f54c04f3a19/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4f5476382b08d74338128590f64e470a/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4f5476382b08d74338128590f64e470a/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/351c92a477d0b20cb729f418754983c1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/351c92a477d0b20cb729f418754983c1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/58c9334d1d628b39365996652eb5fd65/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/58c9334d1d628b39365996652eb5fd65/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/c212e874241cb1b6df65eef19df35673/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/c212e874241cb1b6df65eef19df35673/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/fd88d7cdcaee039603baca8d01dacf40/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/fd88d7cdcaee039603baca8d01dacf40/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/041d7246436673b739b988636b32025c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/041d7246436673b739b988636b32025c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/f945e9102e6aa5b0b7a4cc8591b82361/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/f945e9102e6aa5b0b7a4cc8591b82361/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
 	tools:node
 		ADDED from [androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:35:13-31
 	android:authorities
@@ -725,11 +711,11 @@ ADDED from [androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-
 	android:name
 		ADDED from [androidx.work:work-runtime:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/a010e4ccadb6f5beeea477b8a9d1a9ca/transformed/work-runtime-2.7.0/AndroidManifest.xml:140:25-85
 meta-data#androidx.emoji2.text.EmojiCompatInitializer
-ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/b239fad4e688baa9f78d6f54c04f3a19/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/c212e874241cb1b6df65eef19df35673/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
 	android:value
-		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/b239fad4e688baa9f78d6f54c04f3a19/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/c212e874241cb1b6df65eef19df35673/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:31:17-49
 	android:name
-		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/b239fad4e688baa9f78d6f54c04f3a19/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/c212e874241cb1b6df65eef19df35673/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:30:17-75
 permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.12.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6d3b3cb1ee12db3b50f8898ca61e50cf/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
@@ -751,17 +737,17 @@ ADDED from [androidx.core:core:1.12.0] /Users/yanadoo/.gradle/caches/9.0-milesto
 	android:name
 		ADDED from [androidx.core:core:1.12.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/6d3b3cb1ee12db3b50f8898ca61e50cf/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
 uses-library#android.ext.adservices
-ADDED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/fea81d7e2d4c1de6f4132482282c949f/transformed/ads-adservices-1.0.0-beta05/AndroidManifest.xml:23:9-25:40
+ADDED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/e47a2e3781377b453a38e030ff3a7435/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:23:9-25:40
 	android:required
-		ADDED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/fea81d7e2d4c1de6f4132482282c949f/transformed/ads-adservices-1.0.0-beta05/AndroidManifest.xml:25:13-37
+		ADDED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/e47a2e3781377b453a38e030ff3a7435/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:25:13-37
 	android:name
-		ADDED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/fea81d7e2d4c1de6f4132482282c949f/transformed/ads-adservices-1.0.0-beta05/AndroidManifest.xml:24:13-50
+		ADDED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/e47a2e3781377b453a38e030ff3a7435/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:24:13-50
 meta-data#androidx.lifecycle.ProcessLifecycleInitializer
-ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4f5476382b08d74338128590f64e470a/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/fd88d7cdcaee039603baca8d01dacf40/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
 	android:value
-		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4f5476382b08d74338128590f64e470a/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/fd88d7cdcaee039603baca8d01dacf40/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
 	android:name
-		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/4f5476382b08d74338128590f64e470a/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/fd88d7cdcaee039603baca8d01dacf40/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
 service#androidx.room.MultiInstanceInvalidationService
 ADDED from [androidx.room:room-runtime:2.2.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/38e51f147c5469aaf6162aa89e80f0bd/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
 	android:exported
@@ -771,44 +757,44 @@ ADDED from [androidx.room:room-runtime:2.2.5] /Users/yanadoo/.gradle/caches/9.0-
 	android:name
 		ADDED from [androidx.room:room-runtime:2.2.5] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/38e51f147c5469aaf6162aa89e80f0bd/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
 meta-data#androidx.profileinstaller.ProfileInstallerInitializer
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/351c92a477d0b20cb729f418754983c1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/041d7246436673b739b988636b32025c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
 	android:value
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/351c92a477d0b20cb729f418754983c1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/041d7246436673b739b988636b32025c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/351c92a477d0b20cb729f418754983c1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/041d7246436673b739b988636b32025c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
 receiver#androidx.profileinstaller.ProfileInstallReceiver
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/351c92a477d0b20cb729f418754983c1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/041d7246436673b739b988636b32025c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
 	android:enabled
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/351c92a477d0b20cb729f418754983c1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/041d7246436673b739b988636b32025c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
 	android:exported
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/351c92a477d0b20cb729f418754983c1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/041d7246436673b739b988636b32025c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
 	android:permission
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/351c92a477d0b20cb729f418754983c1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/041d7246436673b739b988636b32025c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
 	android:directBootAware
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/351c92a477d0b20cb729f418754983c1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/041d7246436673b739b988636b32025c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/351c92a477d0b20cb729f418754983c1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/041d7246436673b739b988636b32025c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
 intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/351c92a477d0b20cb729f418754983c1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/041d7246436673b739b988636b32025c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
 action#androidx.profileinstaller.action.INSTALL_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/351c92a477d0b20cb729f418754983c1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/041d7246436673b739b988636b32025c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/351c92a477d0b20cb729f418754983c1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/041d7246436673b739b988636b32025c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
 intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/351c92a477d0b20cb729f418754983c1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/041d7246436673b739b988636b32025c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
 action#androidx.profileinstaller.action.SKIP_FILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/351c92a477d0b20cb729f418754983c1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/041d7246436673b739b988636b32025c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/351c92a477d0b20cb729f418754983c1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/041d7246436673b739b988636b32025c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
 intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/351c92a477d0b20cb729f418754983c1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/041d7246436673b739b988636b32025c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
 action#androidx.profileinstaller.action.SAVE_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/351c92a477d0b20cb729f418754983c1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/041d7246436673b739b988636b32025c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/351c92a477d0b20cb729f418754983c1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/041d7246436673b739b988636b32025c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
 intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/351c92a477d0b20cb729f418754983c1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/041d7246436673b739b988636b32025c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
 action#androidx.profileinstaller.action.BENCHMARK_OPERATION
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/351c92a477d0b20cb729f418754983c1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/041d7246436673b739b988636b32025c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/351c92a477d0b20cb729f418754983c1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/yanadoo/.gradle/caches/9.0-milestone-1/transforms/041d7246436673b739b988636b32025c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92

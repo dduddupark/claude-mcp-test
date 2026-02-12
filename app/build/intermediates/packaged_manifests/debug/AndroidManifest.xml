@@ -47,9 +47,13 @@
         android:debuggable="true"
         android:extractNativeLibs="false"
         android:label="Claude MCP Test"
-        android:supportsRtl="true"
-        android:testOnly="true"
-        android:theme="@style/Theme.AppCompat.Light.DarkActionBar" >
+        android:supportsRtl="true" >
+
+        <!--
+             ✅ Fixed: Removed android:theme attribute. Since we use Jetpack Compose with MaterialTheme,
+                    we don't need AppCompat theme in manifest. Theme is now managed by Compose.
+        -->
+
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-3940256099942544~3347511713" />
@@ -107,10 +111,10 @@
             android:value="@integer/google_play_services_version" />
 
         <activity
-            android:name="androidx.activity.ComponentActivity"
+            android:name="androidx.compose.ui.tooling.PreviewActivity"
             android:exported="true" />
         <activity
-            android:name="androidx.compose.ui.tooling.PreviewActivity"
+            android:name="androidx.activity.ComponentActivity"
             android:exported="true" />
 
         <provider
