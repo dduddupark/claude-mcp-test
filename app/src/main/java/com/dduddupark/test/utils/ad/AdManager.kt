@@ -106,15 +106,18 @@ object AdManager {
             object : InterstitialAdLoadCallback() {
                 override fun onAdFailedToLoad(loadAdError: LoadAdError) {
                     timeoutHandler.removeCallbacks(timeoutRunnable)
-                    Log.e(TAG, "onAdFailedToLoad: ${loadAdError.message}")
+                    
+                    // ✅ Improved: Convert error code to meaningful error message
+                    val errorDescription = getErrorDescription(loadAdError.code)
+                    Log.e(TAG, "onAdFailedToLoad: code=${loadAdError.code}, description=$errorDescription, message=${loadAdError.message}")
                     
                     interstitialAdMap.remove(placementId)
-                    notifyCallback(adInfo, AdLoadFail, loadAdError.code.toString())
+                    notifyCallback(adInfo, AdLoadFail, "$errorDescription: ${loadAdError.message}")
                 }
 
                 override fun onAdLoaded(interstitialAd: InterstitialAd) {
                     timeoutHandler.removeCallbacks(timeoutRunnable)
-                    Log.d(TAG, "onAdLoaded")
+                    Log.d(TAG, "onAdLoaded: ${adInfo.identifier}")
 
                     val loadedData = InterstitialAdData(
                         interstitialAd = interstitialAd,
@@ -138,7 +141,7 @@ object AdManager {
         if (adData?.interstitialAd != null) {
             // Check if ad is valid
             if (!isAdValid(adData)) {
-                Log.w(TAG, "Ad expired when trying to show.")
+                Log.w(TAG, "Ad expired when trying to show: $placementId")
                 adData.interstitialAd = null
                 interstitialAdMap.remove(placementId)
                 notifyCallback(adInfo, AdShowFail, AdErrorCode.AdCanNotShow.code)
@@ -149,30 +152,59 @@ object AdManager {
 
             adData.interstitialAd?.fullScreenContentCallback = object : FullScreenContentCallback() {
                 override fun onAdDismissedFullScreenContent() {
-                    Log.d(TAG, "onAdDismissedFullScreenContent")
+                    Log.d(TAG, "onAdDismissedFullScreenContent: ${adInfo.identifier}")
                     interstitialAdMap.remove(placementId) // Consume ad
                     notifyCallback(adInfo, AdShowClosed)
                 }
 
                 override fun onAdFailedToShowFullScreenContent(adError: AdError) {
-                    Log.e(TAG, "onAdFailedToShowFullScreenContent: ${adError.message}")
+                    // ✅ Improved: Better error message
+                    Log.e(TAG, "onAdFailedToShowFullScreenContent: code=${adError.code}, message=${adError.message}")
                     interstitialAdMap.remove(placementId)
-                    notifyCallback(adInfo, AdShowFail, adError.code.toString())
+                    notifyCallback(adInfo, AdShowFail, "ShowError(${adError.code}): ${adError.message}")
                 }
 
                 override fun onAdShowedFullScreenContent() {
-                    Log.d(TAG, "onAdShowedFullScreenContent")
+                    Log.d(TAG, "onAdShowedFullScreenContent: ${adInfo.identifier}")
                     interstitialAdMap[placementId]?.adStatus = AdShowSuccess
                     notifyCallback(adInfo, AdShowSuccess)
                 }
             }
             
-            adData.interstitialAd?.show(activity)
+            // ✅ Fixed: Ensure show() is called on main thread
+            if (Looper.myLooper() == Looper.getMainLooper()) {
+                try {
+                    adData.interstitialAd?.show(activity)
+                } catch (e: Exception) {
+                    Log.e(TAG, "Error showing ad", e)
+                    notifyCallback(adInfo, AdShowFail, e.message ?: "Unknown error")
+                }
+            } else {
+                Handler(Looper.getMainLooper()).post {
+                    try {
+                        adData.interstitialAd?.show(activity)
+                    } catch (e: Exception) {
+                        Log.e(TAG, "Error showing ad", e)
+                        notifyCallback(adInfo, AdShowFail, e.message ?: "Unknown error")
+                    }
+                }
+            }
         } else {
-            Log.w(TAG, "Ad not ready to show.")
+            Log.w(TAG, "Ad not ready to show: ${adInfo.identifier}")
             notifyCallback(adInfo, AdShowFail, AdErrorCode.AdNotFound.code)
             // Try to load for next time
             loadAd(activity, adInfo)
+        }
+    }
+
+    // ✅ Added: Helper function to convert error codes to meaningful messages
+    private fun getErrorDescription(errorCode: Int): String {
+        return when (errorCode) {
+            0 -> "INTERNAL_ERROR"
+            1 -> "INVALID_REQUEST"
+            2 -> "NETWORK_ERROR"
+            3 -> "NO_FILL"
+            else -> "UNKNOWN_ERROR($errorCode)"
         }
     }
 

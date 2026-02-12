@@ -22,13 +22,12 @@ import com.google.android.gms.ads.MobileAds
 class MainActivity : ComponentActivity() {
 
     private val TAG = "MainActivity"
-    // AdMob test interstitial ad unit ID
-    private val TEST_AD_UNIT_ID = "ca-app-pub-3940256099942544/1033173712"
     
-    // Define an AdInfo for our main button
+    // ✅ Fixed: Use BuildConfig to manage AD unit IDs per build variant (debug/release)
+    // This way, test ads are used in debug builds and production ads in release builds
     private val mainAdInfo = AdInfo(
         identifier = "main_button_ad",
-        placementId = TEST_AD_UNIT_ID
+        placementId = BuildConfig.AD_UNIT_ID_INTERSTITIAL
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -36,7 +35,7 @@ class MainActivity : ComponentActivity() {
 
         // Initialize Mobile Ads SDK
         MobileAds.initialize(this) {
-            Log.d(TAG, "MobileAds initialized")
+            Log.d(TAG, "MobileAds initialized with ad unit: ${BuildConfig.AD_UNIT_ID_INTERSTITIAL}")
             // Pre-load the ad
             AdManager.loadAd(this, mainAdInfo)
         }
@@ -46,19 +45,19 @@ class MainActivity : ComponentActivity() {
             override fun onAdEvent(identifier: String, status: AdStatus, message: String?) {
                 when (status) {
                     is AdStatus.AdLoadSuccess -> {
-                        Log.d(TAG, "Ad Loaded: ")
+                        Log.d(TAG, "Ad Loaded: $identifier")
                         Toast.makeText(this@MainActivity, "광고 로드 완료", Toast.LENGTH_SHORT).show()
                     }
                     is AdStatus.AdLoadFail -> {
-                        Log.e(TAG, "Ad Load Failed: , msg: ")
+                        Log.e(TAG, "Ad Load Failed: $identifier, msg: $message")
                     }
                     is AdStatus.AdShowClosed -> {
-                        Log.d(TAG, "Ad Closed: ")
+                        Log.d(TAG, "Ad Closed: $identifier")
                         // Reload for next time
                         AdManager.loadAd(this@MainActivity, mainAdInfo)
                     }
                     is AdStatus.AdShowFail -> {
-                        Log.e(TAG, "Ad Show Failed: , msg: ")
+                        Log.e(TAG, "Ad Show Failed: $identifier, msg: $message")
                         Toast.makeText(this@MainActivity, "광고 준비중입니다.", Toast.LENGTH_SHORT).show()
                     }
                     else -> {}

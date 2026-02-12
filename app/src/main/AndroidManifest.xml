@@ -3,8 +3,9 @@
     <application
         android:allowBackup="true"
         android:label="Claude MCP Test"
-        android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+        android:supportsRtl="true">
+        <!-- ✅ Fixed: Removed android:theme attribute. Since we use Jetpack Compose with MaterialTheme,
+                    we don't need AppCompat theme in manifest. Theme is now managed by Compose. -->
 
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
